@@ -1,0 +1,42 @@
+.header {
+    align-items: center;
+    display: flex;
+    margin-left: 384px;
+    margin-bottom: 32px;
+    /* width: 256; */
+  }
+  
+  .header-image-wrapper,
+  .header-text-wrapper {
+    width: 512px;
+  }
+  
+  .header-image-wrapper {
+    padding: 0 16px;
+    margin-left: -128px;
+  }
+  
+  .header-image {
+    background-image: url("../../images/icons/prof.png");
+    /* background-color: red; */
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 550px;
+    width: 530px;
+  }
+
+  .header-text {
+    color: #282b42;
+    font-family: PT Sans, sans-serif;
+    font-size: 36px;
+  }
+  
+  .period {
+    color: #e36060;
+  }
+  
+  .subtext {
+    font-weight: 500;
+    color: rgb(172, 172, 172);
+  }
