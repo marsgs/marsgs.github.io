@@ -8,7 +8,7 @@ function Header () {
             <div className="header-text-wrapper">
                 <h1 class="header-text">
                     
-                Hi, I'm Marisol Garcia,<br/>I'm a front-end web developer
+                Hi, I'm Marisol Garcia.<br/>I'm a front-end web developer.
                 </h1>
                 <p class="subtext"><a class="link" href="#about" >More about me.</a></p>
             </div>
