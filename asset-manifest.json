@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cee933f.chunk.css",
+    "main.js": "/static/js/main.89ae8341.chunk.js",
+    "main.js.map": "/static/js/main.89ae8341.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8f8e043f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8f8e043f.js.map",
+    "static/js/2.7db83802.chunk.js": "/static/js/2.7db83802.chunk.js",
+    "static/js/2.7db83802.chunk.js.map": "/static/js/2.7db83802.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ce8ac5be7b4c1062eca87e26d4f1dc19.js": "/precache-manifest.ce8ac5be7b4c1062eca87e26d4f1dc19.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4cee933f.chunk.css.map": "/static/css/main.4cee933f.chunk.css.map",
+    "static/js/2.7db83802.chunk.js.LICENSE.txt": "/static/js/2.7db83802.chunk.js.LICENSE.txt",
+    "static/media/Marisol-Garcia-Resume.pdf": "/static/media/Marisol-Garcia-Resume.a619f4c4.pdf",
+    "static/media/blue-whale.jpg": "/static/media/blue-whale.0567b854.jpg",
+    "static/media/boat.png": "/static/media/boat.554299f5.png",
+    "static/media/cases.gif": "/static/media/cases.07609056.gif",
+    "static/media/chicks.png": "/static/media/chicks.40e2a5df.png",
+    "static/media/fish-hair.png": "/static/media/fish-hair.f6a2bad8.png",
+    "static/media/map.png": "/static/media/map.d635681d.png",
+    "static/media/meal.gif": "/static/media/meal.fd78c22a.gif",
+    "static/media/neon-girl.png": "/static/media/neon-girl.db65c32b.png",
+    "static/media/octopus.jpeg": "/static/media/octopus.16bb1b2e.jpeg",
+    "static/media/Header.css": "/static/media/prof.d47a40a7.png",
+    "static/media/qup.png": "/static/media/qup.5c2bcc4e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f8e043f.js",
+    "static/js/2.7db83802.chunk.js",
+    "static/css/main.4cee933f.chunk.css",
+    "static/js/main.89ae8341.chunk.js"
+  ]
+}
