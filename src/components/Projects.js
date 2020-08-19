@@ -1,14 +1,17 @@
 import React from "react";
-import "./Projects.css";
-import cases from "../../images/thumbs/cases.gif";
-import qup from "../../images/thumbs/qup.png";
-import map from "../../images/thumbs/map.png";
-import meal from "../../images/thumbs/meal.gif";
+import "../styles/Projects.css";
+import cases from "../images/thumbnails/cases.gif";
+import qup from "../images/thumbnails/qup.png";
+import map from "../images/thumbnails/map.png";
+import meal from "../images/thumbnails/meal.gif";
 
 function Projects() {
     return (
         <section id="projects" className="projects-wrapper">
+
               <div className="projects offset">
+              <div class="section-text"><h1>Projects</h1></div>
+
                 <div className="project-1">
                     <div className="card">
                         <a className="project-link" href="https://covid19-mapdata.web.app/">
@@ -18,11 +21,15 @@ function Projects() {
                                 <h6>Web development</h6>
                                 <h1>Covid-19 Case Tracker</h1>
                                 <p>
-                                    Web app created using react and various libraries to map the amount of covid-19 case increase per day in every country.
-                                </p> 
+                                    Interactive way to see the amount of covid-19 case increase per day in every country.
+                                </p>
+                                <br/>
+                                <p>
+                                    Project created following an online tutorial to practice the basics of react, such as JSX, and how to utilize the state and effect hooks. I also learned how to use MaterialUI to create cards and menu items. <br/><br/>LeafletJS was used to create the map and display the circles and pop-ups.
+                                </p>
                             </article>
                         </a>
-                        <article><span>React, JSX</span></article>
+                        <article><span><p>React / MaterialUI / LeafletJS</p></span></article>
                     </div>
                 </div>
 
@@ -36,11 +43,16 @@ function Projects() {
                                 <h6>Web Development</h6>
                                 <h1>Queue Up</h1>
                                 <p>
-                                    Hackathon project, this is a line managment application created using Flask, HTML, CSS and Javascript.
+                                    Grocery store queue management platform for mitigating large crowds and practicing safe distancing outside and inside the store.
                                 </p>
+                                
+                                <br/>
+                                <p>This project was created in a three week period for Hack Quarantine, contributions included creating the visual layout of the website on Figma and then using HTML/CSS and Bootstrap to create it.</p>
+                                <br/>
+                                <p>We used Flask for our backend framework and MySql to hold our data.</p>
                             </article>
                         </a>
-                        <article><span>Flask, Python</span></article>
+                        <article><span><p>Fask / Python / Bootstrap / Twilio / MySql</p></span></article>
                     </div>
                 </div>
 
@@ -53,11 +65,17 @@ function Projects() {
                                 <h6>Data Visualization</h6>
                                 <h1>Migrant Project</h1>
                                 <p>
-                                    A Visualization of missing and dead migrants between the years of 2014 and 2019. Created using mapbox and Unity3D.
+                                    A Visualization of missing and dead migrants between the years of 2014 and 2019.
+                                </p>
+                                <br/> 
+                                <p>This was a solo project I did using python to sort the dataset in a format to easily generate graphs in Unity. Mapbox was used to plot markers based on coordinates.</p>
+                                <br/>
+                                <p>
+                                    Browser version coming soon!
                                 </p>
                             </article>
                         </a>
-                        <article><span>Python, Mapbox</span></article>
+                        <article><span><p>Python / Mapbox / Unity3D</p></span></article>
                     </div>
                 </div>
 
@@ -70,12 +88,16 @@ function Projects() {
                                 <h6>Web Development</h6>
                                 <h1>MealShare</h1>
                                 <p>
-                                    Web application created for the purpose of connecting grocery stores and restaurants to food pantries with excess food items.
-                                    Created using nodejs, mongodb and html/css, javascript.
+                                    Website created for the purpose of connecting grocery stores and restaurants to food pantries with excess food items.
+                                </p>
+                                <br/>
+                                <p>
+                                    This was created using Nodejs, MongoDB, HTML/CSS, and javascript.
+                                    My role in this group project was to develop the user interface using Bootstrap, CSS and HTML.
                                 </p>
                             </article>
                         </a>
-                        <article><span>Bootstrap, Nodejs</span></article>
+                        <article><span><p>Bootstrap / NodeJS / MongoDB</p></span></article>
                     </div>
                 </div>                
               </div>

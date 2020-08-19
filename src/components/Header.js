@@ -1,17 +1,17 @@
 import React from "react";
-import "./Header.css";
+import "../styles/Header.css";
 
 function Header () {
     return (
         <div>
-            <header className="header" style={{padding: "6vw 0px"}}>
+            <header id="header" className="header" style={{padding: "6vw 0px"}}>
             <div className="header-text-wrapper">
-                <h1 className="header-text">
-                    Marisol Garcia,<br/>front end developer<span className="period">.</span>
-                    <br/><span className="subtext"></span>
+                <h1 class="header-text">
+                    
+                Hi, I'm Marisol Garcia,<br/>I'm a front-end web developer
                 </h1>
+                <p class="subtext"><a class="link" href="#about" >More about me.</a></p>
             </div>
-
             <div className="header-image-wrapper">
                 <div className="header-image">
                 </div>
