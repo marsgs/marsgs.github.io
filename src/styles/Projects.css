@@ -1,7 +1,7 @@
 .projects-wrapper{
   padding-top: 20px ;}
 
-.projects, .projects h1:not(:first-of-type) {
+.projects {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
@@ -11,7 +11,9 @@
   grid-gap: 20px;
   padding-bottom: 6vw;
 }
-  
+.hi {
+  grid-column: 1/3;
+}
  
 .card {
   min-height: 100%;
@@ -92,7 +94,7 @@ margin: 2em 0 0 0;
 }
 
 @media only screen and (min-width: 850px) {
-  .projects:not(:first-child) {
+  .projects{
     grid-template-columns: 1fr 1fr;
   }
 }

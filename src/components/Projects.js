@@ -10,7 +10,7 @@ function Projects() {
         <section id="projects" className="projects-wrapper">
 
               <div className="projects offset">
-              <div class="section-text"><h1>Projects</h1></div>
+              <div class="section-text hi"><h1 class="p-h1">Projects</h1></div>
 
                 <div className="project-1">
                     <div className="card">
