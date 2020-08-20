@@ -11,7 +11,7 @@ function Navigation() {
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
         <a href="#illustrations">Illustrations</a>
-        <a href={ resume } >Resume</a>
+        <a href={ resume } >Resumé</a>
         <a href= "mailto:marsgsn@gmail.com" >Email</a>
     
 </nav>

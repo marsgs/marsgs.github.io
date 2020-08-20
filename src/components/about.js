@@ -7,7 +7,7 @@ function About() {
     return (
         <section id="about" className="about-wrapper">
               <div className="about offset">
-                  <div className="section-text"><h1>About</h1></div>
+                  <div className="section-text about-heading"><h1>About</h1></div>
                   <div className="about-body"><p>Hello! I recently graduated from the University of North Carolina at Charlotte with a degree in computer science focusing in software engineering and a minor in mathematics. Take a look at my <a class="link" href= {resume }>Resumé</a>.
                   </p>
                         <p>My experience includes working as a teachers assistant for Girls Who Code, where I helped teach highschool students various programming languages, some of which included Python, Javascript, HTML and CSS. Also, during my time at UNCC, I held mentoring positions for students in introductory computer science courses and for students who where underperforming academically.

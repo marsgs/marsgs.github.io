@@ -98,3 +98,10 @@ margin: 2em 0 0 0;
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media only screen and (max-width: 850px) {
+  .hi {
+    grid-column: 1/2;
+  
+  }
+}
