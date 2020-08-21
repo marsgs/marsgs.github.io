@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4aa65ed58ddcebc25563009a8e888d8",
+    "revision": "4cde856339e0225a38f07d9decb1b74c",
     "url": "/index.html"
   },
   {
-    "revision": "f4024598a2f225266a2d",
+    "revision": "df66fd9c011642e21c06",
     "url": "/static/css/main.212007a2.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7db83802.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4024598a2f225266a2d",
-    "url": "/static/js/main.8d367a67.chunk.js"
+    "revision": "df66fd9c011642e21c06",
+    "url": "/static/js/main.4b2af0f6.chunk.js"
   },
   {
     "revision": "93036b75017fd2fa9481",
     "url": "/static/js/runtime-main.8f8e043f.js"
   },
   {
-    "revision": "a619f4c4ca89587ca812a0c20de92a38",
-    "url": "/static/media/Marisol-Garcia-Resume.a619f4c4.pdf"
+    "revision": "2474a00d80efaaceefdbd8c16b8d1b2d",
+    "url": "/static/media/Marisol-Garcia-Resume.2474a00d.pdf"
   },
   {
     "revision": "0567b854a692dc43b7b90aa2e364526c",
