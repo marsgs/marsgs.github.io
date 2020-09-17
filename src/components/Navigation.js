@@ -1,20 +1,32 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
-import "../styles/Navigation.css";
-import resume from "../Marisol-Garcia-Resume.pdf"
-
+import "../styles/navigation.css";
+import resume from "../Marisol-Garcia-Resume.pdf";
+import icon from "../images/icons/icon.png";
 
 function Navigation() {
   return (
     <div>
-      <nav className="navigation nav-block">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#illustrations">Illustrations</a>
-        <a href={ resume } >Resumé</a>
-        <a href= "mailto:marsgsn@gmail.com" >Email</a>
-    
-</nav>
+      <nav>
+        <div class="container nav">
+          <img class="icon" src={icon} />
+          <div>
+            <ul>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#illustrations">Illustrations</a>
+              </li>
+              <li>
+                <a href={resume}>Resumé</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 }

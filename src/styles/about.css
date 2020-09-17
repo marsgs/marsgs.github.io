@@ -1,22 +1,18 @@
 .about {
-    display: flex;
-    width: 90%;
-  max-width: 900px;
-    }
-    
-    .about-heading {
-        width: 374px;
-    }
-    
-    .about-body {
-        width: 532px;
-    }
-    
-    .about-body p:not(:last-child) {
-        margin-bottom: 30px;
-    
-    }
-    
-    .about-wrapper {
-        padding: 30px 0;
-    }
+  display: flex;
+}
+.about-heading {
+  width: 15rem;
+}
+
+.about-heading h2 {
+  margin: 0;
+}
+
+.about-body p {
+  margin-bottom: 1rem;
+}
+
+.about-body {
+  width: 40rem;
+}

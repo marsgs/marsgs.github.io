@@ -1,69 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;900&display=swap');
-body {
-  font-family: 'Assistant', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;900&display=swap");
+
+a {
+  text-decoration: none;
 }
 
-.header-text {
+p {
+  color: rgb(108, 108, 108);
+  line-height: 1.6;
+  margin: 0;
+}
+
+header h1,
+h2 {
   color: #282b42;
-  font-family: 'Assistant', sans-serif;
-  font-size: 36px;
 }
 
-.subtext {
-  /* font-weight: 600; */
-  color: #727483;
-  font-size: 28px;
-  /* color: rgb(145, 145, 145); */
+h1,
+h4 {
+  margin: 0;
+}
+
+header a {
+  font-size: 1.225rem;
+}
+
+.title {
+  margin: 0;
+  padding: 0 0 1.75rem 0;
 }
 
 .link {
   font-weight: 600;
-  color: #e36060;
-  box-shadow: inset 0 -.0625rem 0 0 white,inset 0 -.1875rem 0 0 #ecb4b4;
-  transition: box-shadow .15s ease;
+  letter-spacing: 0.0325rem;
+  color: #c95050;
+  box-shadow: inset 0 -0.0625rem 0 0 white, inset 0 -0.1875rem 0 0 #ecb4b4;
+  transition: box-shadow 0.15s ease;
 }
 
 .link:hover {
   transition: 0.2s ease;
-  box-shadow: inset 0 -.0625rem 0 0 white,inset 0 -.1875rem 0 0 #e36060;
+  box-shadow: inset 0 -0.0625rem 0 0 white, inset 0 -0.1875rem 0 0 #c95050;
 }
-
-/* Title */
-article h1 {
-  color: #21242c;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 8px;
-  }
-
-.projects-title h1 {
-  color: #21242c;
-  font-size: 28px;
-  /* font-weight: 700; */
-  line-height: 1.1;
-}
-
-/* project type  */
-h6 {
-  display: block;
-font-family: 'Source Code Pro', monospace;  
-font-size: 17px;
-  margin-bottom: 8px;
-  text-decoration: none;
-  color: #e36060;
-}
-
-/* description */
-.projects p, .about-body p, .footer-text {
-  font-size: 17px;
-  color: #837676;
-}
-
-
-.section-text h1 {
-  color: #282b42;
-  font-size: 34px;
-  padding-bottom: 20px;
-}
-
