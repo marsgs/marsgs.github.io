@@ -8,7 +8,9 @@ function Navigation() {
     <div>
       <nav>
         <div class="container nav">
-          <img class="icon" src={icon} />
+          <div>
+            <img class="icon" src={icon} />
+          </div>
           <div>
             <ul>
               <li>

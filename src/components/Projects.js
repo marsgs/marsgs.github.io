@@ -4,7 +4,7 @@ import todo from "../images/thumbnails/todo.gif";
 import cases from "../images/thumbnails/cases.gif";
 import qup from "../images/thumbnails/qup.png";
 import map from "../images/thumbnails/map.png";
-import meal from "../images/thumbnails/meal.gif";
+import google from "../images/thumbnails/gugol.gif";
 import card from "../images/thumbnails/card.gif";
 
 function Projects() {
@@ -63,6 +63,23 @@ function Projects() {
             </div>
           </a>
 
+          <a href="https://github.com/marsgs/MealShare">
+            <div class="card">
+              <div
+                class="project-thumb"
+                style={{ backgroundImage: `url(${google})` }}
+              ></div>
+              <article>
+                <h6>UI Design</h6>
+                <h2>Pixel Google Widget</h2>
+                <p>
+                  Widget built with CSS Grid and Flexbox. Icons created using
+                  digital art software.
+                </p>
+              </article>
+            </div>
+          </a>
+
           <a href="https://github.com/marsgs/migrant-visualization">
             <div class="card">
               <div
@@ -76,20 +93,6 @@ function Projects() {
                   Interactive visualization of missing and dead migrants, built
                   with Unity3D.
                 </p>
-              </article>
-            </div>
-          </a>
-
-          <a href="https://github.com/marsgs/MealShare">
-            <div class="card">
-              <div
-                class="project-thumb"
-                style={{ backgroundImage: `url(${meal})` }}
-              ></div>
-              <article>
-                <h6>Web development</h6>
-                <h2>Meal Share</h2>
-                <p>Website built with Nodejs, MongoDB, and Bootstrap.</p>
               </article>
             </div>
           </a>
