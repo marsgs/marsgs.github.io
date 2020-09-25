@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.15968b83.chunk.css",
-    "main.js": "/static/js/main.b328df80.chunk.js",
-    "main.js.map": "/static/js/main.b328df80.chunk.js.map",
+    "main.css": "/static/css/main.1945f2d1.chunk.css",
+    "main.js": "/static/js/main.d064f72a.chunk.js",
+    "main.js.map": "/static/js/main.d064f72a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f8e043f.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f8e043f.js.map",
     "static/js/2.154f160c.chunk.js": "/static/js/2.154f160c.chunk.js",
     "static/js/2.154f160c.chunk.js.map": "/static/js/2.154f160c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.167cc513a169c3fa4bfeee1d1f31abb0.js": "/precache-manifest.167cc513a169c3fa4bfeee1d1f31abb0.js",
+    "precache-manifest.eaaea5515c36ac3191503849b967db1e.js": "/precache-manifest.eaaea5515c36ac3191503849b967db1e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.15968b83.chunk.css.map": "/static/css/main.15968b83.chunk.css.map",
+    "static/css/main.1945f2d1.chunk.css.map": "/static/css/main.1945f2d1.chunk.css.map",
     "static/js/2.154f160c.chunk.js.LICENSE.txt": "/static/js/2.154f160c.chunk.js.LICENSE.txt",
-    "static/media/Marisol-Garcia-Resume.pdf": "/static/media/Marisol-Garcia-Resume.2474a00d.pdf",
+    "static/media/Marisol-Garcia-Resume.pdf": "/static/media/Marisol-Garcia-Resume.73ee774e.pdf",
     "static/media/blue-whale.jpg": "/static/media/blue-whale.0567b854.jpg",
     "static/media/card.gif": "/static/media/card.ce01e12c.gif",
     "static/media/cases.gif": "/static/media/cases.07609056.gif",
     "static/media/chicks.png": "/static/media/chicks.40e2a5df.png",
     "static/media/codepen.svg": "/static/media/codepen.4f76e3de.svg",
     "static/media/dribbble.svg": "/static/media/dribbble.bb551d2d.svg",
-    "static/media/fish-hair.png": "/static/media/fish-hair.f6a2bad8.png",
+    "static/media/fish-hair.png": "/static/media/fish-hair.cc7cce7a.png",
     "static/media/github.svg": "/static/media/github.ddc25012.svg",
     "static/media/gugol.gif": "/static/media/gugol.9ac85371.gif",
     "static/media/icon.png": "/static/media/icon.724f0471.png",
     "static/media/linkedin.svg": "/static/media/linkedin.3c8afea5.svg",
     "static/media/map.png": "/static/media/map.d635681d.png",
-    "static/media/neon-girl.png": "/static/media/neon-girl.db65c32b.png",
+    "static/media/mushroom.png": "/static/media/mushroom.8b7b6d42.png",
     "static/media/octopus.jpeg": "/static/media/octopus.16bb1b2e.jpeg",
     "static/media/qup.png": "/static/media/qup.5c2bcc4e.png",
     "static/media/todo.gif": "/static/media/todo.e497cd16.gif"
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.8f8e043f.js",
     "static/js/2.154f160c.chunk.js",
-    "static/css/main.15968b83.chunk.css",
-    "static/js/main.b328df80.chunk.js"
+    "static/css/main.1945f2d1.chunk.css",
+    "static/js/main.d064f72a.chunk.js"
   ]
 }
