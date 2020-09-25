@@ -63,7 +63,7 @@ function Projects() {
             </div>
           </a>
 
-          <a href="https://github.com/marsgs/MealShare">
+          <a href="https://codepen.io/marsgs/full/PoNdxEr">
             <div class="card">
               <div
                 class="project-thumb"

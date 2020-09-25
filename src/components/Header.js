@@ -5,14 +5,16 @@ function Header() {
     <div>
       <header>
         <div class="container header">
-          <h1>
-            I'm Marisol Garcia,
-            <br />a front-end web developer.
-          </h1>
+          <div>
+            <h1>
+              I'm Marisol Garcia,
+              <br />a front-end web developer.
+            </h1>
 
-          <a class="link" href="#about">
-            More about me.
-          </a>
+            <a class="link" href="#about">
+              More about me.
+            </a>
+          </div>
         </div>
       </header>
     </div>

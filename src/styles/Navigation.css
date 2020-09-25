@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  /* padding: 1.75rem 0; */
+  padding: 1rem;
 }
 
 nav img {
@@ -12,6 +12,7 @@ nav ul {
   display: flex;
   align-items: center;
   height: 100%;
+  flex-wrap: wrap;
 }
 
 nav ul li {

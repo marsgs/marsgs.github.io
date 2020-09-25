@@ -7,7 +7,11 @@ function Footer() {
       <div class="container footer">
         <div>
           <a href="https://github.com/marsgs">
-            <img src={require("../images/icons/github.svg")} alt="github" />
+            <img
+              class="social"
+              src={require("../images/icons/github.svg")}
+              alt="github"
+            />
           </a>
           <a href="https://codepen.io/marsgs">
             <img src={require("../images/icons/codepen.svg")} alt="codepen" />

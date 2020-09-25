@@ -30,3 +30,23 @@ figure {
   padding: 1.75rem 1rem;
   /* background-color: lightblue; */
 }
+
+/* 768px */
+@media (max-width: 64rem) {
+  .container {
+    max-width: 52rem;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* 512px */
+@media (max-width: 36rem) {
+  .icon {
+    display: none;
+  }
+  .nav {
+    display: block;
+  }
+}

@@ -14,5 +14,6 @@
 }
 
 .about-body {
-  width: 40rem;
+  /* width: 40rem; */
+  padding: 1rem;
 }

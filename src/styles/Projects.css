@@ -1,12 +1,16 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-  grid-gap: 1em;
+  /* grid-gap: 1em; */
+}
+
+.grid a {
+  padding: 1rem;
 }
 
 .card {
   position: relative;
-  width: 18rem;
+  width: auto;
   height: 21rem;
   display: inline-grid;
   grid-template-rows: 1fr 1fr;
@@ -69,4 +73,8 @@ article h2 {
   border-top-right-radius: 0.375rem;
   background-size: cover;
   background-position: center center;
+}
+
+header .container {
+  padding: 0 1.75rem 0 1.75rem;
 }

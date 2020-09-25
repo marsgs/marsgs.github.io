@@ -9,21 +9,35 @@ function Gallery() {
           <h2>Illustrations</h2>
         </div>
         <div class="illustrations-grid">
-          <div class="column-xs-12 column-md-12"></div>
           <figure class="item-1">
-            <img src={require("../images/gallery/chicks.png")} />
+            <img
+              src={require("../images/gallery/chicks.png")}
+              alt="chick emojis"
+            />
           </figure>
           <figure class="item-2">
-            <img src={require("../images/gallery/blue-whale.jpg")} />
+            <img
+              src={require("../images/gallery/blue-whale.jpg")}
+              alt="blue whale"
+            />
           </figure>
           <figure class="item-3">
-            <img src={require("../images/gallery/fish-hair.png")} />
+            <img
+              src={require("../images/gallery/fish-hair.png")}
+              alt="fish hair girl"
+            />
           </figure>
           <figure class="item-4">
-            <img src={require("../images/gallery/octopus.jpeg")} />
+            <img
+              src={require("../images/gallery/octopus.jpeg")}
+              alt="octopus tentacles"
+            />
           </figure>
           <figure class="item-5">
-            <img src={require("../images/gallery/neon-girl.png")} />
+            <img
+              src={require("../images/gallery/mushroom.png")}
+              alt="girl with mushroom hair"
+            />
           </figure>
         </div>
       </div>

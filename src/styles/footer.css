@@ -6,14 +6,28 @@
   letter-spacing: 0.0325rem;
 }
 
+.social {
+  margin-left: 0;
+}
 .footer img {
   width: 1.35rem;
   margin-left: 1rem;
   opacity: 0.6;
   transition: 0.3s ease;
 }
+.social {
+  margin-left: 0 !important;
+}
+/* .footer img:first-of-type {
+  margin-left: 0;
+} */
 
 .footer img:hover {
   opacity: 1;
   transition: 0.3s ease;
+}
+
+footer div,
+h4 {
+  padding: 1rem;
 }

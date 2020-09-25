@@ -5,6 +5,7 @@
   grid-gap: 1rem;
   flex-direction: column;
   flex-flow: row wrap;
+  padding: 1rem;
 }
 
 .illustrations-grid img {
