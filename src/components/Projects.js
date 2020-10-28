@@ -6,6 +6,7 @@ import qup from "../images/thumbnails/qup.png";
 import map from "../images/thumbnails/map.png";
 import google from "../images/thumbnails/gugol.gif";
 import card from "../images/thumbnails/card.gif";
+import potato from "../images/thumbnails/potato.png";
 
 function Projects() {
   return (
@@ -15,6 +16,23 @@ function Projects() {
           <h2>Projects</h2>
         </div>
         <div class="grid">
+          <a href="https://covid19-mapdata.web.app/">
+            <div class="card">
+              <div
+                class="project-thumb"
+                style={{ backgroundImage: `url(${cases})` }}
+              ></div>
+              <article>
+                <h6>Web development</h6>
+                <h2>Covid-19 Case Tracker</h2>
+                <p>
+                  React application using desease.sh API to create an
+                  interactive layout.
+                </p>
+              </article>
+            </div>
+          </a>
+
           <a href="https://react-todo-d4f7c.web.app/">
             <div class="card">
               <div
@@ -27,6 +45,23 @@ function Projects() {
                 <p>
                   A regular to-do list made with React. Utilized localstorage to
                   keep to-dos.
+                </p>
+              </article>
+            </div>
+          </a>
+
+          <a href="https://potato-ipsum.web.app/">
+            <div class="card">
+              <div
+                class="project-thumb"
+                style={{ backgroundImage: `url(${potato})` }}
+              ></div>
+              <article>
+                <h6>web development</h6>
+                <h2>Potato Ipsum</h2>
+                <p>
+                  Potato themed random placeholder text generator built with
+                  React.
                 </p>
               </article>
             </div>
@@ -80,7 +115,7 @@ function Projects() {
             </div>
           </a>
 
-          <a href="https://github.com/marsgs/migrant-visualization">
+          {/* <a href="https://github.com/marsgs/migrant-visualization">
             <div class="card">
               <div
                 class="project-thumb"
@@ -95,24 +130,7 @@ function Projects() {
                 </p>
               </article>
             </div>
-          </a>
-
-          <a href="https://covid19-mapdata.web.app/">
-            <div class="card">
-              <div
-                class="project-thumb"
-                style={{ backgroundImage: `url(${cases})` }}
-              ></div>
-              <article>
-                <h6>Web development</h6>
-                <h2>Covid-19 Case Tracker</h2>
-                <p>
-                  React application using desease.sh API to create an
-                  interactive layout.
-                </p>
-              </article>
-            </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

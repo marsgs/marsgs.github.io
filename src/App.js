@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="page-wrapper">
+    <div>
       <Navigation />
       <Header />
       <Projects />
